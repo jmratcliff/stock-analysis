@@ -15,5 +15,6 @@ Utilize an existing VBA script and refactor the script to be more efficient.
 #### Analysis
 Historical green energy stock prices were summarized for trading volume and return percentage with the following results:
 
-![2017]()
+![2017](resources/VBA_Challenge_2017.png)
 
+![2018](resources/VBA_Challenge_2017.png)
