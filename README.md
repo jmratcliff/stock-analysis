@@ -5,10 +5,10 @@ Steve is a financial analyst doing stock research for his parents who are intere
 Steve's parents have put all of their money into DAQO New Energy (DQ) and Steve is worried about the lack of diversity in their portfolio. He has provided historical green energy companies stock volumes and prices for 2017 and 2018 in Excel format. Steve has requested help in quickly analyzing the different companies stock performance over the two year periods.
 
 ### Purpose
-#### Client Perspective
+##### Client Perspective
 Analyze DAQO stock performances versus the other 11 green energy companies stock performance. Provide analysis and recommendations.
 
-#### Analyst Perspective
+##### Analyst Perspective
 Utilize an existing VBA script and refactor the script to be more efficient. 
 
 ### Results
@@ -21,7 +21,7 @@ Historical green energy stock prices were summarized for trading volume and retu
 
 DAQO (DQ) performed well in 2017 with an overall return just under 200%. However the volume of stock traded was by far the lowest of the peer group at 35.8M shares. 2018 saw a much higher volume of DAQO stock traded but had a negative 62.6% return. Total return over 2017 and 2018 was 17.8%.
 
-Diversifaction of the stock portfolio is recommended with ENPH and RUN stocks good candidates with high volumes and positive returns in both 2017 and 2018.
+Diversifaction of the stock portfolio is recommended with ENPH and RUN stocks being good candidates with high volumes and positive returns in both 2017 and 2018.
 
 ##### Code
 Original VBA code had nested for loops that would run through the entire stock data, calculate and write the individual stock's performance and then repeat the process 11 more times:
