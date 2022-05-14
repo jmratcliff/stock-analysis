@@ -104,9 +104,9 @@ Original VBA code had nested for loops that would run through the entire stock d
 ###### Run times
 Macro run times for original VBA script:
 
-![2017](resources/Orig_2017.png)
+        ![2017](resources/Orig_2017.png)
 
-![2018](resources/Orig_2018.png)
+        ![2018](resources/Orig_2018.png)
 
 The refactored VBA script utilized a Ticker Index to calculate each stock's volume, start price, end price, and return in a single pass through the data:
  'Initialize array of all tickers
@@ -205,10 +205,19 @@ The refactored VBA script utilized a Ticker Index to calculate each stock's volu
 ###### Run times
 Macro run times for refactored VBA script:
 
-![2017](resources/Refactored_2017.png)
+        ![2017](resources/Refactored_2017.png)
 
-![2018](resources/Refactored_2018.png)
+        ![2018](resources/Refactored_2018.png)
 
 The refactored VBA script ran dramatically faster than the original script.
 
+### Summary
+##### Refactoring VBA code Disadvantages
+If the original code works, why spend the time and energy to refactor?
 
+##### Refactoring VBA code Advantages
+*  Leverage the existing code to improve it and provide better results
+*  Improve efficiency of analysis and macro times
+*  Ability to add flexibility to VBA script to better handle future changes in analysis needs
+
+While getting the refactored VBA to run correctly was challenging at times, the end result is a much quicker and efficient analysis method. Debugging the code enabled better learning that will be remembered.
